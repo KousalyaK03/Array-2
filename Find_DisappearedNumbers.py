@@ -1,4 +1,3 @@
-# Explain your approach in three sentences only at top of your code
 # Approach: Iterate through the array and for each number encountered, mark its corresponding index as negative to indicate that the number at that index exists in the array.
 # After marking, any index that remains positive corresponds to a missing number (since its position was never visited).
 # Finally, collect all indices with positive values, as they represent the numbers missing from the array.
